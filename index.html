@@ -46,7 +46,33 @@
 
             <div class="backdrop is-hidden " data-modal>
                 <div class="modal">
-                   <b> <p>Ура!!!! Получилось!!!</p></b>
+                   <h2 class="heading-modal">Оставьте свои данные, мы вам перезвоним</h2>
+                   <form class="forms" action="">
+
+<div class="form-fild">
+                       <label  for="name">имя</label>
+                       <input type="text" name="name" id="name">
+</div>
+<div class="form-fild">
+                       <label for="tel">телефон</label>
+                       <input type="tel" name="tel" id="tel">
+</div>
+<div class="form-fild">
+                       <label for="email">почта</label>
+                       <input type="email" name="email" id="email">
+</div>
+<div class="form-fild">
+                        <label for="comment">Комментарий</label>
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+</div>
+<div class="policy"> 
+                        <input type="checkbox" id="policy">
+                        <label for="policy">Соглашаюсь с рассылкой и принимаю <span class="contract">Условия договора</span> </label>
+</div>
+<div>
+                        <button class="button-submit" type="submit">Отправить</button>   
+</div>
+                   </form>
                     <button class="button-close" data-modal-close>
                     <svg class="button-close-svg">
                         <use href="./images/button/sprite.svg#close"></use>
