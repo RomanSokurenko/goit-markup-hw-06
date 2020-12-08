@@ -73,6 +73,7 @@
   --gray: #9da4bb;
   --button:#ffffff;
   --background:#F5F4FA;
+  --email: rgba(255, 255, 255, 0.6);
 }
 
 h1,h2,h3{
@@ -319,8 +320,7 @@ text-align: left;
   display:flex;
   flex-direction: column;
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
+
 font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.01em;
@@ -819,8 +819,6 @@ text-transform: uppercase;
 color:var(--button);
 margin-top: 60px;
 margin-left: 70px;
-
-
 }
 
 .address-social-icons{
@@ -859,6 +857,40 @@ fill: var(--button);
  .address-social-icons-link:hover{
    background-color: var(--accent-cl);
  }
+
+ .subscription{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--button);
+margin-top: 60px;
+margin-left: 70px;
+margin-bottom: 0px;
+}
+
+.subscription-item{
+  padding: 0;
+  width: 358px;
+  height: 50px;
+margin-top: 20px;
+margin-left: 70px;
+font-family: Roboto;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+background-color: var(--black);
+color:var(--email);
+border: 1px solid var(--gray);
+}
+.email-item{
+  padding-left: 16px;
+}
 
 .block-test{
 display: flex;
