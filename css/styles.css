@@ -152,7 +152,7 @@ margin: 0px;
 .header-container{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  
 }
 
 .menu-logo{
@@ -376,8 +376,8 @@ letter-spacing: 0.06em;
 border-radius: 4px;
 border: none;
 color:var(--button)
-
 }
+
 .contract{
   color: var(--accent-cl);
   text-decoration: underline;
@@ -499,12 +499,11 @@ letter-spacing: 0.03em;
 color:var(--black);
 }
 .section-job{
-  
   display:inline-block;
   justify-content: flex-end;
   align-items: center;
   font-family: Roboto;
-  padding-top:94px ;
+  margin-top: 94px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -619,11 +618,13 @@ margin-top: 60px;
 }
 
 .address-map{
+ 
   margin-top: 20px;
   display: inline-block;
 
 }
-.address{
+.address{ width: 231px;
+  height: 21px;
   padding: 0px;
    margin-top: 20px;
    color: var(--button);
@@ -712,19 +713,15 @@ width: 100%;
 overflow: hidden;
 
 }
-
-
  .overlay .text-overlay{
   position: absolute;
   padding: 63px 24px;
- 
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
   transform: translatey(106%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
  font-family: Roboto;
  font-weight: 400;
  font-size: 18px;
@@ -757,7 +754,7 @@ flex-basis: calc(100% / 9 - 30px);
 }
 
 .clients{
-  padding-top: 94px;
+  margin-top: 94px;
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -888,8 +885,38 @@ background-color: var(--black);
 color:var(--email);
 border: 1px solid var(--gray);
 }
+
 .email-item{
   padding-left: 16px;
+}
+
+.button-subscription{ 
+width: 200px;
+height: 50px;
+margin-top: 96px;
+margin-left: 12px;
+padding-left: 29px;
+background-color: var(--accent-cl);
+font-family: Roboto;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color:var(--button);
+border: 1px solid var(--gray);
+}
+
+.button-subscription-svg{
+display: flex;
+  width: 24px;
+  height: 24px;
+  fill: var(--button);
+  margin-top: -37px;
+  margin-left: 158px;
+  margin-right: 28px;
 }
 
 .block-test{
